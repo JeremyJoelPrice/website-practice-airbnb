@@ -1,3 +1,74 @@
+/* open page styles */
+
 header, section, footer, aside, nav, article, figure, figcaption {
  display: block;
 }
+* {
+ font-family: sans-serif;
+}
+body {
+ margin: 0;
+ background-color: #eee4;
+}
+/* close page styles */
+
+/* open footer styles */
+#footer-wrapper {
+ color: #555;
+ font-size: 9pt;
+
+ width: 100%;
+}
+#footer-wrapper td:hover {
+ text-decoration: underline;
+}
+#footer-wrapper hr {
+ border: 1px solid #ddd;
+}
+
+#footer-nav-table {
+ text-align: left;
+
+ width: 100%;
+ padding: 20px 30px;
+}
+#footer-nav-table th {
+ text-transform: uppercase;
+ font-weight: bold;
+}
+#footer-nav-table th, #footer-nav-table td {
+ padding: 10px;
+}
+
+#footer-links {
+ text-align: center;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+#footer-links-top {
+ margin-bottom: 15px;
+}
+
+#footer-links-top > span:nth-child(even) {
+ text-decoration: underline;
+ font-weight: bold;
+}
+#footer-links-top > span:nth-child(odd) {
+ margin-left: 20px;
+}
+#social-media-links > span {
+ margin-left: 10px;
+}
+svg {
+ display:inline;
+ width:16px;
+ height:16px;
+ fill:currentColor;
+}
+#bottom-links span {
+ margin: 5px;
+}
+#copyright-message {
+ margin-bottom: 5px;
+}
+/* close footer styles */
